@@ -12,20 +12,8 @@ class LowerSection extends Component {
         super(props);
         this.state =
         {
-            data: undefined,
-            name: undefined,
-            dayName: undefined,
-            status:undefined,
-            degree:undefined,
-            categories: [],
-            tempList: undefined,
             weekTemp: [],
-            pressure: undefined,
             totalData: [],
-            humidity: undefined,
-            temperature: undefined,
-            imgSrc: undefined,
-            windSpeed: undefined,
             dayList: [
                         {   id: 0,  day:'Sunday'   },
                         {   id: 1,  day:'Monday'   },
@@ -34,8 +22,7 @@ class LowerSection extends Component {
                         {   id: 4,  day:'Thursday' },
                         {   id: 5,  day:'Friday'   },
                         {   id: 6,  day:'Saturday' }
-                    ],
-            chart: undefined
+                    ]   
                     
         }  
         
